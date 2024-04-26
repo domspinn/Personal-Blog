@@ -1,0 +1,81 @@
+/* ENTRIES CSS */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #f1f8fd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dark-mode {
+    background-color: #13162c;
+    color: #fff;
+  }
+
+header {
+    height: 10vh;
+    background-color: #d4eafa;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+header h1 {
+   font-size: 40px;
+   border-bottom: 5px dashed black;
+   padding: 5px;
+   margin: 0 auto;
+}
+
+header .page {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: linear-gradient(to bottom, #f1f1f1, #ffffff);;
+    font-weight: bold;
+    font-size: 17px;
+    position: absolute;
+    right: 20px;
+}
+
+header .back {
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #d4eafa;
+    font-weight: bold;
+    font-size: 17px;
+    position: absolute;
+    left: 40px;
+}
+
+#entriesContainer {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px black;
+    max-width: 60%;
+    margin: 0 auto;
+    padding: 20px
+}
+
+.entry {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px black;
+    padding: 20px;
+    margin: 10px;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
